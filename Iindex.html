@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Marca - Diseñador Gráfico</title>
+
+    <!-- Fuente elegante -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: #111;
+
+            /* Fondo rayado minimalista */
+            background: repeating-linear-gradient(
+                45deg,
+                #ffffff,
+                #ffffff 10px,
+                #f2f2f2 10px,
+                #f2f2f2 20px
+            );
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 30px;
+        }
+
+        header img {
+            width: 80px;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 10px 0;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 0.9em;
+            letter-spacing: 3px;
+            color: #555;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #111;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+        }
+
+        section {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            filter: grayscale(100%);
+            transition: 0.4s;
+        }
+
+        .portfolio img:hover {
+            filter: grayscale(0%);
+            transform: scale(1.02);
+        }
+
+        .contacto p {
+            margin: 8px 0;
+            font-size: 0.95em;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.8em;
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="/IMAGENES/A5.png" alt="Logo">
+        <h1>NENE DISNG</h1>
+        <p>DISEÑO GRÁFICO</p>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="#portfolio">PORTAFOLIO</a>
+        <a href="#contacto">CONTACTO</a>
+    </nav>
+
+    <!-- PORTAFOLIO -->
+    <section id="portfolio">
+        <h2>SERVICIOS</h2>
+        <div class="portfolio">
+            <img src="/IMAGENES/A1.jpeg" alt="">
+            <img src="/IMAGENES/A2.jpg" alt="">
+            <img src="/IMAGENES/A3.jpg" alt="">
+             <img src="/IMAGENES/A4.jpg" alt="">
+        </div>
+      <div></div>DISEÑO EDITORIAL
+      <div></div>FOTOGRAFÍA 
+      <div></div>DISEÑO DE IDENTIDAD VISUAL
+      <div></div>ILUSTRACIÓN 
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <h2>CONTACTO</h2>
+        <p>Tel: 713-109-0039</p>
+        <p>Email: velazquezangel619@gmail.com</p>
+        <p>Dirección: Santiago Tianguistenco </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Nombre de tu Marca
+    </footer>
+
+</body>
+</html>
